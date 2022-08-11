@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    padding: 8rem 4%;
+}
+nav{
+    padding: 2rem 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    right: 0; left: 0;
+    position: fixed;
+    z-index: 11;
+    background-color: white;
+}
+nav img{
+    width: 100%;
+    height: 35px;
+}
+nav a{
+    font-size: 10px;
+}
+.nav-list{
+    display: flex;
+    gap: 2.5rem;
+}
+.body-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.left-part{
+    width: 40%;
+    padding-top: 6rem;
+}
+.left-part h3{
+    line-height: 1.8rem;
+}
+.left-part p{
+    line-height: 1.5rem;
+}
+.right-part img{
+    width: 100%;
+    height: 400px;
+}
+.input{
+    margin-top: 2rem;
+}
+.input input{
+    padding: .5rem 2rem;
+}
+.input a{
+    padding: .5rem 2rem;
+    background-color: rgb(46, 102, 249);
+    color: white;
+    border-radius: 3px;
+}
+.input a:hover{
+    background-color: white ;
+    color: rgb(46, 102, 249);
+    transition: 1s ;
+}
+.snd-body-sec{
+    /* background-color: rgb(249,248,254) ; */
+    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url('bg-curve-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.sndleft-part{
+    width: 40%;
+}
+.sndright-part img{
+    width: 100%;
+    height: 400px;
+}
+.left-secwriteup h3{
+    padding-bottom: 2rem;
+    font-size: 30px;
+}
+.left-secwriteup p{
+    padding: .5rem 0;
+    line-height: 1.2rem;
+}
+.left-secwriteup span{
+    border-bottom: 1px solid;
+    color: rgb(86, 194, 174);
+}
+.left-sec-box{
+    background-color: white;
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 70%;
+    box-shadow: 0 0 1rem rgba(0,0,0,.1);
+}
+.profile-info{
+    display: flex;
+    padding-top: 1rem;
+}
+.profile-img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.profile-name p{
+    font-size: 10px;
+}
+
+
+.third-sec{
+    background-color: rgb(87, 89, 137);
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+}
+.third-left-part{
+    width: 40%;
+    color: white;
+}
+.third-left-part h3{
+    padding-bottom: 1.5rem;
+}
+.third-right-part input{
+    padding: .5rem 5rem;
+    border: none;
+}
+.started-btn a{
+    padding: .5rem 2rem;
+    background-color: rgb(46, 102, 249);
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.started-btn a:hover{
+    background-color: white ;
+    color: rgb(46, 102, 249);
+    transition: 1s ;
+}
+.started-btn{
+    margin-top: 1rem;
+}
+
+
+footer{
+    background-color: rgb(7, 4, 59);
+    color: white;
+    height: 7vh;
+    bottom: 0;
+}
+.phone{
+    display: flex;
+    padding-bottom: 1.5rem;
+}
+.phone img{
+    padding-right: 1rem;
+}
+.mail{
+    display: flex;
+}
+.mail img{
+    padding-right: 1rem;
+}
+.last-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    width: 20%;
+}
+.first .logoo{
+    padding-bottom: 1.5rem;
+    margin-top: -8rem;
+    width:150px;
+    height: 120px;
+}
+
+.second{
+    margin-top: 1rem;
+    width: 20%;
+}
+.second p{
+    padding: .3rem 0;
+}
+.third{
+    margin-top: 1rem;
+    width: 20%;
+}
+.third p{
+    padding: .3rem 0;
+}
+.last{
+    margin-top: 1rem;
+    width: 20%;
+    margin-right: 2rem;
+    
+}
+.last i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: .5rem;
+    margin: 0 1rem;
+}
+
+@media screen and (max-width: 415px){
+    nav{
+        padding: 2rem 6%;
+    }
+    .nav-list{
+        gap: 1.5rem;
+    }
+    nav img{
+        width: 100%;
+        height: 25px;
+    }
+    .body-sec{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .left-part{
+        padding-top: 3rem;
+        width: 100%;
+    }
+    .input{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .input a{
+        margin: 1rem 0;
+    }
+    .snd-body-sec{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url('bg-curve-mobile.svg');
+        background-position: center;
+        background-size: cover;
+    }
+    .sndleft-part{
+        width: 100%;
+        margin-top: 5rem;
+    }
+    .sndright-part img{
+        height: 350px;
+    }
+    .left-secwriteup h3{
+        font-size: 22px;
+    }
+    .left-sec-box{
+      margin-left: 1.2rem;
+      text-align: start;
+    }
+    .third-sec{
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+    .third-left-part{
+        width: 100%;
+    }
+    .third-right-part{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .last-sec{
+        flex-direction: column;
+        height: auto;
+    }
+    .last i{
+        text-align: center;
+    }
+    .first{
+        width: 100%;
+    }
+    .second{
+        width: 100%;
+    }
+    .third{
+        width: 100%;
+    }
+    .last{
+        width: 100%;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .second p{
+        padding: .5rem 0;
+    }
+    .third p{
+        padding: .5rem 0;
+    }
+    .third-right-part input{
+        margin-right: 1rem;
+    }
+}
